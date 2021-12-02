@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  list-style: none ;
+  overflow-x: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.root{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.header{
+  width: 95%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paymona{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+a{
+  text-decoration: none;
+  color :#1D214E;
+  cursor: pointer;
+}
+.headerSvg{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -10;
+}
+
+.companyName{
+  color :#1D214E;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  padding-left: 20px;
+}
+.menu-Panel{
+  display: flex;
+  align-items: center;
+}
+.items{
+  color: #ffffff;
+  font-weight: 400;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.enter{
+  color: #ffffff;
+  background-color: rgba(3, 194, 236, 1);
+  border-radius: 50px;
+  padding: 8px 12px
+}
+.react{
+  position: absolute;
+  left: 0;
+  top: 160px;
+  z-index: -10;
+}
+
+
+.second-block{
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+blue{
+  color: rgba(3, 194, 236, 1);
+  margin-left: 5px;
+}
+#product{
+  will-change: opacity, transform;
+  opacity: 0;
+  transform: translateY(50px);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 70.28px;
+  transition: 1000ms;
+}
+#product._active{
+  will-change: opacity, transform, position;
+  opacity: 1;
+  transform: translateY(0)
+}
+.h1{
+  color: #1D214E;
+  line-height: 50px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1000ms;
+}
+.h1._active{
+  opacity: 1;
+  transform: translateY(0)
+}
+.grid-Team-block{
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 100px;
+  grid-gap: 12px;
+  margin-bottom: 50px;
+}
+.title-block{
+  width: 240px;
+  height: 240px;
+  background: #1D214E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FBFAFF;
+  font-size: 24px;
+  font-weight: 600;
+  line-height:30px;
+}
+.paymona-block{
+  width: 240px;
+  height: 240px;
+  background: #0F112C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FBFAFF;
+  font-size: 24px;
+  font-weight: 600;
+  line-height:30px;
+}
+
+.img-block{
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.block-for-right-text{
+ text-align: start;
+}
+.paymona-block path{
+  fill: #ffffff; 
+  opacity: 0.2;
+}
+
+.main-footer{
+  position: relative;
+  width: 90%;
+  padding: 35px 120px;
+  height: 144px;
+  background: #1D214E;
+  display: flex;
+  justify-content: space-between;
+}
+.left-paymona-panele{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.white{
+  margin-left: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center
+}
+.white2{
+  color: #ffffff;
+  display: flex;
+  align-items: center
+}
+.left-paymona-panele path{
+  fill: #fff;
+}
+
+.paymona-wrap{
+  display: flex;
+  align-items: center
+}
+.right-contact-panel{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-info{
+  color: rgba(234, 243, 252, 1);
+  font-weight: 400;
+  font-size: 20px;
+  line-height:25px
+}

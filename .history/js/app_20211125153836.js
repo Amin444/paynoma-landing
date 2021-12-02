@@ -1,3 +1,0 @@
-wi.addEventListener('scroll', () =>{
-
-})
