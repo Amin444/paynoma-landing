@@ -649,6 +649,8 @@ ol #marker2{
   margin-top: 40px;
 }
 
+.show {display:block;}
+
 .select-items-for-form{
   background: #FBFAFF;
   border-radius: 12px;

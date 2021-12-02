@@ -186,6 +186,10 @@ function myFunction2() {
   })
 }
 
+  window.click = event =>{
+  if(event.target.contains(dropContent2)){
+  }
+  }
 
 const DemandPrediction = () =>{
 
@@ -611,7 +615,7 @@ const PaymonaBI =() => {
   }
 
 
-  animOnScroll()
+  animOnScroll();
   handleWindowScroll();
-  DemandPrediction()
+  DemandPrediction();
   Sado();
